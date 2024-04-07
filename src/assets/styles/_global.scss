@@ -1,0 +1,19 @@
+body {
+    overflow-x: hidden;
+    font-family: var(--font-popins);
+    font-weight: var(--font-light);
+    font-size: var(--text-base);
+    line-height: var(--lh-base);
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 20px;
+    height: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
