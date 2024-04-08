@@ -1,7 +1,8 @@
 
 <script setup>
-import TheHeader from './TheHeader.vue';
 import TheFooter from './TheFooter.vue';
+import TheHeader from './TheHeader.vue';
+
 
 </script>
 <template>

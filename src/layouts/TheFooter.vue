@@ -1,11 +1,11 @@
 <script setup>
-import { FOODTER_LINK } from '@/constant/footerLinks';
+import { FOOTER_LINKS } from '@/constant/footerLinks';
 import { Facebook, Twitter, Linkedin, Chrome } from 'lucide-vue-next'
 import { computed } from 'vue';
 
-const footerLinks = computed(() => FOODTER_LINK);
-
+const footerLinks = computed(() => FOOTER_LINKS);
 </script>
+
 <template>
     <footer class="footer">
         <div class="container">
@@ -33,6 +33,7 @@ const footerLinks = computed(() => FOODTER_LINK);
         </div>
     </footer>
 </template>
+
 <style scoped lang="scss">
 .footer {
     background-color: var(--purple-500);

@@ -1,0 +1,53 @@
+export const COURSES = [
+    {
+        title: 'Everything You need to know About Business',
+        author: 'Nicole Brow',
+        rating: '(4,5) 120',
+        view: '12,000',
+        lesion: 36,
+        oldPrice: '99.99',
+        price: '48.57',
+    },
+    {
+        title: 'Everything You need to know About Business',
+        author: 'Nicole Brow',
+        rating: '(4,5) 120',
+        view: '12,000',
+        lesion: 36,
+        oldPrice: '99.99',
+        price: '48.57',
+    }, {
+        title: 'Everything You need to know About Business',
+        author: 'Nicole Brow',
+        rating: '(4,5) 120',
+        view: '12,000',
+        lesion: 36,
+        oldPrice: '99.99',
+        price: '48.57',
+    },
+    {
+        title: 'Everything You need to know About Business',
+        author: 'Nicole Brow',
+        rating: '(4,5) 120',
+        view: '12,000',
+        lesion: 36,
+        oldPrice: '99.99',
+        price: '48.57',
+    }, {
+        title: 'Everything You need to know About Business',
+        author: 'Nicole Brow',
+        rating: '(4,5) 120',
+        view: '12,000',
+        lesion: 36,
+        oldPrice: '99.99',
+        price: '48.57',
+    }, {
+        title: 'Everything You need to know About Business',
+        author: 'Nicole Brow',
+        rating: '(4,5) 120',
+        view: '12,000',
+        lesion: 36,
+        oldPrice: '99.99',
+        price: '48.57',
+    }
+]

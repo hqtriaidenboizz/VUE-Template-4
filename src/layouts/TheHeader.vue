@@ -1,6 +1,6 @@
 <script setup>
-import BaseButton from "@/components/BaseButton.vue";
-import LogoBrand from "@/components/LogoBrand.vue";
+import BaseButton from "@/components/common/BaseButton.vue";
+import LogoBrand from "@/components/common/LogoBrand.vue";
 import { Search, ShoppingCart, ChevronDown, Menu, X } from "lucide-vue-next";
 import { ref, computed } from "vue";
 

@@ -1,4 +1,4 @@
-export const FOODTER_LINK  = [
+export const FOOTER_LINKS  = [
     {
         Company: [
             { label: "About", path: "/about" },

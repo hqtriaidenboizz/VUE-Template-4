@@ -18,6 +18,7 @@ const computedClasses = computed(() => {
 
 <template>
     <button :class="computedClasses">
+        <slot name="iconLeft"></slot>
         <span>
             <slot>{{ buttonText }}</slot>
         </span>
@@ -57,7 +58,6 @@ const computedClasses = computed(() => {
 }
 
 .secondly {
-    display: block;
     padding: 14px 24px;
     color: var(--purple-400);
     background-color: var(--white);
