@@ -1,18 +1,14 @@
 <script setup>
 import BaseButton from "@/components/common/BaseButton.vue";
 import bannerIntroduction from '@/assets/imgs/other/banner-introduction.jpg'
+import { SOCICAL_MEDIA } from '@/constant/socialMedia';
 import { computed, ref } from "vue";
-const SOCICAL_MEDIA = [
-    { name: 'Tw' },
-    { name: 'Fb' },
-    { name: 'Be' },
-    { name: 'In' },
-    { name: 'Db' }
-]
+
 const isSocialActive = ref('Tw')
 const handleSocialActive = (string) => {
     isSocialActive.value = string
 }
+
 </script>
 
 <template>

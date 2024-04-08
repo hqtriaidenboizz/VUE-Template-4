@@ -1,9 +1,6 @@
 <script setup>
 import BaseHeading from "@/components/common/BaseHeading.vue";
 import BaseButton from "@/components/common/BaseButton.vue";
-
-
-
 </script>
 <template>
     <section class="learn-leading">
